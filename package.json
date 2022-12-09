@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devstart": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,13 +13,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.1",
-    "express-pdf": "^1.2.2",
-    "html-pdf": "^3.0.1",
-    "html-pdf-node": "^1.0.8",
-    "mongoose": "^6.1.1",
-    "node-phantom": "^0.2.5",
-    "pdf-creator-node": "^2.3.5",
-    "phantom": "^6.3.0"
+    "mongoose": "^6.1.1" 
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

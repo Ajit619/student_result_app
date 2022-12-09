@@ -11,7 +11,7 @@
           <th scope="col">Subject Name</th>
           <th scope="col">Score (?/100)</th>
         </tr>
-      </thead>
+      </thead> 
       <tbody>
         <tr>
           <th scope="row">1</th>
@@ -41,5 +41,28 @@
       </tbody>
     </table>
     <h1 style="text-align: center;">Status : <%= one.status %> </h1>
-    <a href="/generatepdf">Download</a>
+  </div>
+  
 </div>
+<div class="container">
+
+  <button id="btn" onclick=window.print()>Download Result</button>
+  <style>
+    #btn{
+      border-radius: 0px;
+    margin-left: 372px;
+    top: 45px;
+    background-color: #8a27aa;
+    color: white;
+    margin: 534px;
+      width:153px;
+    }
+    .container{
+      bottom: -621px;
+    position: absolute;
+    top: 175px;
+    right: 190px;    }
+
+
+    </style>
+    </div>

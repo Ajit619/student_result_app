@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
-const port = process.env.PORT || 3000;
+const port = 3000;
 const mongoose = require('mongoose');
 var expressLayouts = require('express-ejs-layouts');
 MONGO_URI = "mongodb+srv://ajit02:Ajit2002@studentdata.gg1gtrt.mongodb.net/?retryWrites=true&w=majority";
-mongoose.connect(process.env.MONGO_URI, {
+mongoose.connect(MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

@@ -3,8 +3,8 @@ const app = express();
 const port = 3000;
 const mongoose = require('mongoose');
 var expressLayouts = require('express-ejs-layouts');
-MONGO_URI = "mongodb+srv://ajit02:Ajit2002@studentdata.gg1gtrt.mongodb.net/?retryWrites=true&w=majority";
-mongoose.connect(MONGO_URI, {
+
+mongoose.connect("mongodb+srv://ajit02:Ajit2002@studentdata.gg1gtrt.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
